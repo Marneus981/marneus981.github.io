@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from 'react'
+import Navbar from './components/navbar/navbar'
+import Hero from './components/hero/hero'
+import Programs from './components/programs/programs'
+import Title from './components/title/title'
+import About from './components/about/about'
+import Campus from './components/campus/campus'
+import Testimonials from './components/testimonials/testimonials'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        {/* Navigation bar / Container */}
+        <Navbar/>
+        {/* Background section */}
+        <Hero/>
+        {/* Adds space to sides by adding container properties*/}
+        <div className='container'>
+
+            {/* Projects section */}
+            <Title subTitle= 'My Projects' title= 'To Contribute To YOUR Continued Success'/>
+            <Programs/>
+
+            {/* About me section */}
+            {/* <Title subTitle= 'About Me' title= 'Who Am I'/> Good REC Copilot!*/}
+            <About/>
+            {/* Will totally need to revamp this... ALSO will have the programs section
+             be used for projects; ALSO x2 Should probably make them coherent with
+             the Navbar list */}
+
+            <Title subTitle='My Education' title='My Trojan War'/>
+            {/* My education? */}
+            <Campus/>
+
+            {/* Other skills? IDK man */}
+            <Title subTitle='Testimonials' title='The Odyssey'/>
+            <Testimonials/>
+
+        </div>
+    
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
