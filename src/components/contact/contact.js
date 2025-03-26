@@ -6,6 +6,32 @@ import phone_icon from '../../assets/placeholder/phone_icon.png'
 import location_icon from '../../assets/placeholder/location_icon.png'
 import white_arrow from '../../assets/placeholder/white_arrow.png'
 const Contact = () => {
+
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "7940b902-7947-45d8-ad4a-e59a3385f623");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
     <div className='contact'>
         <div className='contact_col'>
@@ -23,7 +49,7 @@ const Contact = () => {
             </ul>
         </div>
         <div className='contact_col'>
-            <form>
+            <form onSubmit={onSubmit}> 
                 <label>Your Name (required)</label>
                 <input type='text' name='name' placeholder='Name' required/>
 
@@ -43,6 +69,9 @@ const Contact = () => {
                   <img src={white_arrow} alt="" />
                 </button>
             </form>
+            {/* Make dynamic Sending message that is random */}
+            {/* Sending... */}
+            <span>{result}</span>
         </div>
     </div>
   )

@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 import Navbar from './components/navbar/navbar'
 import Hero from './components/hero/hero'
 import Programs from './components/programs/programs'
@@ -7,7 +8,11 @@ import About from './components/about/about'
 import Campus from './components/campus/campus'
 import Testimonials from './components/testimonials/testimonials'
 import Contact from './components/contact/contact'
+import Footer from './components/footer/footer'
+import VideoPlayer from './components/videoPlayer/videoPlayer'
 const App = () => {
+
+  const [playState, setPlayState] = useState(false);
   return (
     <div>
         {/* Navigation bar / Container */}
@@ -23,7 +28,7 @@ const App = () => {
 
             {/* About me section */}
             {/* <Title subTitle= 'About Me' title= 'Who Am I'/> Good REC Copilot!*/}
-            <About/>
+            <About setPlayState={setPlayState}/>
             {/* Will totally need to revamp this... ALSO will have the programs section
              be used for projects; ALSO x2 Should probably make them coherent with
              the Navbar list */}
@@ -37,11 +42,12 @@ const App = () => {
             <Testimonials/>
 
             {/* Contact me PLEASE I BEG */}
-            <Title subTitle='Contact Me' title='Commune with Homer'/>
+            <Title subTitle='Contact Me' title='Commune with Odysseus'/>
             <Contact/>
+            <Footer/>
             
         </div>
-    
+        <VideoPlayer playState={playState} setPlayState={setPlayState}/>
     </div>
   )
 }
