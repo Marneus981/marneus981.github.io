@@ -1,3 +1,4 @@
+@import '../../config.css';
 .programs{
     margin: 80px auto;
     width: 90%;
@@ -21,12 +22,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 15, 152, 0.3);
+    background: linear-gradient(var(--zero),10%,var(--un));
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: white;
+    color: var(--cinq);
     cursor: pointer;
     /* Hide image and caption */
     opacity: 0;

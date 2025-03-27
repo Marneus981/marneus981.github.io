@@ -1,0 +1,22 @@
+:root {
+    --zero:var(--p1transparent);
+    --un:var(--p1yellow);
+    --deux: var(--p1cyan);
+    --trois: var(--p1red);
+    --quatre: var(--p1purple);
+    --cinq: var(--p1magenta);
+
+    /* Palette 1 */
+    /*Transparent*/
+    --p1transparent:rgba(0,0,0,0);
+    /*Xanthous*/
+    --p1yellow:#FFBA49;
+    /*Light sea green*/
+    --p1cyan:#20A39E;
+    /*Bittersweet*/
+    --p1red:#EF5B5B;
+    /*Dark Purple*/
+    --p1purple:#23001E;
+    /*Magnolia*/
+    --p1magenta:#F7F0F5;
+}

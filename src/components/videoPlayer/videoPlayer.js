@@ -3,8 +3,7 @@ import './videoPlayer.css'
 import {useState} from 'react'
 
 
-const VideoPlayer = ({playState, setPlayState}) => {
-    const [youtubeID] = useState('vGtkMcithNo');
+const VideoPlayer = ({playState, setPlayState,youtubeID}) => {
     const player = useRef(null);
     const closePlayer = (e) => {
         if(e.target === player.current){

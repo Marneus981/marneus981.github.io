@@ -1,10 +1,12 @@
+@import '../../config.css';
 .footer{
     margin: 10 px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid #797979;
+    border-top: 1px solid var(--quatre);
     padding: 15px 0;
+    color:var(--quatre);
 }
 .footer li{
     list-style: none;

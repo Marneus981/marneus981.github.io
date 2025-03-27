@@ -1,3 +1,4 @@
+@import '../../config.css';
 .about{
     margin: 100px auto;
     display: flex;
@@ -29,19 +30,19 @@
 .about h3{
     font-size: 16px;
     font-weight: 600;
-    color: #212EA0;
+    color: var(--un);
     /* Added for coherence with previous components */
     text-transform: uppercase;
 
 }
 .about h2{
     font-size: 35px;
-    color: #000F38;
+    color: var(--quatre);
     margin: 10px 0;
     max-width: 400px;
 }
 .about p{
-    color: #676767;
+    color: var(--quatre);
     margin-bottom: 15px;
 }
 

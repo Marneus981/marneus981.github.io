@@ -1,10 +1,11 @@
+@import '../../config.css';
 .video_player{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background: var(--quatre);
     z-index: 100;
     display: flex;
     align-items: center;
@@ -17,7 +18,7 @@
     max-width: 900px;
     
     aspect-ratio: 16/9;
-    border: 4px solid #fff;
+    border: 4px solid var(--cinq);
 }
 .hide{
     display: none;

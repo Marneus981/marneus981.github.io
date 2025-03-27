@@ -1,12 +1,13 @@
+@import '../../config.css';
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)),
+    background: linear-gradient(var(--un),30%,var(--zero),60%,var(--cinq )),
         url('../../assets/placeholder/hero.png');
     background-size: cover;
     background-position: center;
     /* Color of text in component  */
-    color: white;
+    color: var(--cinq);
     display: flex;
     align-items: center;
     justify-content: center;

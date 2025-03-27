@@ -10,9 +10,12 @@ import Testimonials from './components/testimonials/testimonials'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 import VideoPlayer from './components/videoPlayer/videoPlayer'
+
+import './config'
 const App = () => {
 
   const [playState, setPlayState] = useState(false);
+  /*Variables*/
   return (
     <div>
         {/* Navigation bar / Container */}
@@ -47,7 +50,7 @@ const App = () => {
             <Footer/>
             
         </div>
-        <VideoPlayer playState={playState} setPlayState={setPlayState}/>
+        <VideoPlayer playState={playState} setPlayState={setPlayState} youtubeID={global.config.youtubeID.un}/>
     </div>
   )
 }
