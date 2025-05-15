@@ -41,7 +41,7 @@ const Navbar = () => {
         </h1>
         
         
-        <ul className={mobileMenu? '' : 'hide_mobile_menu'}>
+        {/* <ul className={mobileMenu? '' : 'hide_mobile_menu'}>
             <li><Link to='hero' smooth={true} offset={0} duration={500}>
             About Me
             </Link></li>
@@ -62,6 +62,20 @@ const Navbar = () => {
             <li><Link to='contact' smooth={true} offset={-260} duration={500} className='btn'>
             Contact Me</Link></li>
 
+        </ul> */}
+        <ul class= {mobileMenu? "menu-hover-fill flex flex-col items-start leading-none text-2xl uppercase space-y-4" : 'hide_mobile_menu'} >
+            <li><a href="#" data-text="About Me"><Link to='hero' smooth={true} offset={0} duration={500}>
+            About Me</Link></a></li>
+            <li><a href="#" data-text="Academic Life"><Link to='program' smooth={true} offset={-260} duration={500}>
+            Academic Life</Link></a></li>
+            <li><a href="#" data-text="University Projects"><Link to='about' smooth={true} offset={-150} duration={500}>
+            University Projects</Link></a></li>
+            <li><a href="#" data-text="Personal Projects"><Link to='campus' smooth={true} offset={-260} duration={500}>
+            Personal Projects</Link></a></li>
+            <li><a href="#" data-text="Other Passions"><Link to='testimonials' smooth={true} offset={-260} duration={500}>
+            Other Passions</Link></a></li>
+            <li><a href="#" data-text="Contact Me"><Link to='contact' smooth={true} offset={-260} duration={500}>
+            Contact Me</Link></a></li>
         </ul>
         <Hamburger className='hamburger' toggled={mobileMenu} toggle={setMobileMenu} size={30} color={sticky || mobileMenu?  'var(--cinq)': 'var(--quatre)'} distance="sm" rounded label="Menu" />
         {/* <Hamburger toggled={mobileMenu} toggle={setMobileMenu} size={20} color={sticky ? '#fff' : '#000'} distance="sm" rounded label="Show menu" /> */}
