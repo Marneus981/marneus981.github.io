@@ -10,6 +10,7 @@ import Testimonials from './components/testimonials/testimonials'
 import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 import VideoPlayer from './components/videoPlayer/videoPlayer'
+import Stripes from './components/stripes/stripes'
 
 import './config'
 const App = () => {
@@ -17,9 +18,19 @@ const App = () => {
   const [playState, setPlayState] = useState(false);
   /*Variables*/
   return (
+    
     <div>
+
         {/* Navigation bar / Container */}
+        <Stripes/>
         <Navbar/>
+        {/* Stripes */}
+        
+        {/* Stripes */}
+        {/* <div className='stripes'>
+            <div className='stripe one'></div>
+            <div className='stripe two'></div>
+            <div className='stripe three'></div>
         {/* Background section */}
         <Hero/>
         {/* Adds space to sides by adding container properties*/}
@@ -47,9 +58,10 @@ const App = () => {
             {/* Contact me PLEASE I BEG */}
             <Title subTitle='Contact Me' title='Commune with Odysseus'/>
             <Contact/>
-            <Footer/>
+            
             
         </div>
+        <Footer/>
         <VideoPlayer playState={playState} setPlayState={setPlayState} youtubeID={global.config.youtubeID.un}/>
     </div>
   )

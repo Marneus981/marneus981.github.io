@@ -2,12 +2,12 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(var(--un),30%,var(--zero),60%,var(--cinq )),
+    /*background: linear-gradient(var(--un),30%,var(--zero),60%,var(--cinq )),
         url('../../assets/placeholder/hero.png');
     background-size: cover;
-    background-position: center;
+    background-position: center;*/
     /* Color of text in component  */
-    color: var(--cinq);
+    color: var(--quatre);
     display: flex;
     align-items: center;
     justify-content: center;

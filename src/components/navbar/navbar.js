@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from "react-scroll";
+import Hamburger from 'hamburger-react'
 import './navbar.css'
-import logo from '../../assets/placeholder/logo.png'
-import menu_icon from '../../assets/placeholder/menu_icon.png'
+import '../../config'
+// import logo from '../../assets/placeholder/logo.png'
+// import menu_icon from '../../assets/placeholder/menu_icon.png'
 
 const Navbar = () => {
 
@@ -29,8 +31,16 @@ const Navbar = () => {
     }
   
     return (
-    <nav className={`container ${sticky ? 'dark_nav' : ''}`}>
-        <img src={logo} alt="" className='logo'/>
+    <nav className={`container ${sticky ? 'dark_nav' : 'light_nav'}`}>
+        {/* <img src={logo} alt="" className='logo'/> */}
+        <h1 className={`${sticky ? 'dark_h1' : 'light_h1'}`}>
+            Marcos David Madrigal Albores <br/>
+            <span className='un'>Software Engineer </span>
+            <span className='deux'>Storyteller </span>
+            <span className='trois'>Artist</span>
+        </h1>
+        
+        
         <ul className={mobileMenu? '' : 'hide_mobile_menu'}>
             <li><Link to='hero' smooth={true} offset={0} duration={500}>
             About Me
@@ -53,8 +63,13 @@ const Navbar = () => {
             Contact Me</Link></li>
 
         </ul>
-        <img src={menu_icon} alt="" className='menu_icon'onClick={toggleMenu}/>
+        <Hamburger className='hamburger' toggled={mobileMenu} toggle={setMobileMenu} size={30} color={sticky || mobileMenu?  'var(--cinq)': 'var(--quatre)'} distance="sm" rounded label="Menu" />
+        {/* <Hamburger toggled={mobileMenu} toggle={setMobileMenu} size={20} color={sticky ? '#fff' : '#000'} distance="sm" rounded label="Show menu" /> */}
+        {/* <div className='menu_icon' onClick={toggleMenu}></div> */}
+        {/* <img src={menu_icon} alt="" className='menu_icon'/> */}
+        {/* <img src={menu_icon} alt="" className='menu_icon'onClick={toggleMenu}/> */}
     </nav>
+
   )
 }
 

@@ -1,0 +1,33 @@
+@import '../../config.css';
+
+
+.stripes {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Layer above background but below content */
+    pointer-events: none; /* Allow clicks to pass through */
+}
+
+.stripe {
+    position: fixed;
+    width: 3.33%; /* Divide into 3 equal parts */
+    height: 100%; /* Divide into 3 equal parts */
+}
+
+.stripe.one {
+    left: 0;
+    background-color: var(--un);
+}
+
+.stripe.two {
+    left: 3.33%;
+    background-color: var(--deux);
+}
+
+.stripe.three {
+    left: 6.66%;
+    background-color: var(--trois);
+}

@@ -4,9 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 1px solid var(--quatre);
-    padding: 15px 0;
-    color:var(--quatre);
+    border-top: 1px solid var(--cinq);
+    background-color: var(--quatre);
+    padding: 15px 10%;
+    color:var(--cinq);
+
 }
 .footer li{
     list-style: none;
@@ -15,7 +17,7 @@
 }
 
 /*Media Query*/
-@media (max-width: 600px){
+@media (max-width: 688px){
     .footer{
         display: block;
         text-align: center;

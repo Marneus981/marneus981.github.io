@@ -12,8 +12,38 @@ nav{
     justify-content: space-between;
     z-index: 1000;
 }
-.logo{
+.hamburger{
+
+}
+/* .logo{
     width: 180px;
+} */
+/*Replace logo with left justified Name + Title*/
+nav h1{
+    font-size: 30px;
+    color: var(--cinq);
+    margin-left: 20px;
+
+}
+.light_h1{
+    color: var(--quatre);
+}
+.dark_h1{
+    color: var(--cinq);
+}
+/*Title: Computer Engineer Storyteller Artist*/
+.un{
+    font-size: 16px;
+    color: var(--un);
+    
+}
+.deux{
+    font-size: 16px;
+    color: var(--deux);
+}
+.trois{
+    font-size: 16px;
+    color: var(--trois);
 }
 nav ul li{
     display: inline-block;
@@ -22,37 +52,51 @@ nav ul li{
     font-size: 16px;
 }
 .dark_nav{
-    background: var(--un);
+    color: var(--cinq);
+    background: var(--quatre);
     transition: all 0.5 ease;
 }
+.light_nav{
+    color: var(--quatre);
+
+    transition: all 0.5 ease;
+}
+
 .menu_icon{
     display: none;
 
 }
 
 /*media query*/
-@media (max-width: 1000px){
+/*@media (max-width: 1000px){
     .logo{
         width: 140px;
     }
     nav ul li{
         margin: 10px 15px;
     }
-}
-@media (max-width: 840px){
+}*/
+@media (max-width: 1298px){
     nav{
         padding: 15px 0;
+        
     }
     nav ul {
         position: fixed;
         top: 0;
         bottom: 0;
         right: 0px;
-        background: var(--un);
+        background: var(--quatre);
+        
         z-index: -1;
         width: 200px;
+        /*height: min-content;*/
         padding-top: 70px;
         transition: all 0.5s ease;
+        text-align: right;
+        
+        
+
 
 
     }
@@ -63,11 +107,19 @@ nav ul li{
     }
     .menu_icon{
         display: block;
+        
         width: 30px;
         cursor: pointer;
+
+
+
+        
     }
     .hide_mobile_menu{
         right: -200px;
         transition: all 0.5s ease;
+    }
+    .light_nav ul{
+        color: var(--cinq);
     }
 }
