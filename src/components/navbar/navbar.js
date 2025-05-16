@@ -63,7 +63,7 @@ const Navbar = () => {
             Contact Me</Link></li>
 
         </ul> */}
-        <ul class= {mobileMenu? "menu-hover-fill flex flex-col items-start leading-none text-2xl uppercase space-y-4" : 'menu-hover-fill flex flex-col items-start leading-none text-2xl uppercase space-y-4 hide_mobile_menu'} >
+        <ul class= {`menu-hover-fill ${sticky || mobileMenu ? 'dark_menu' : 'light_menu'} flex flex-col items-start leading-none text-2xl uppercase space-y-4 ${mobileMenu ? '' : 'hide_mobile_menu'}`}>
             <li><a href="#" data-text="About Me"><Link to='hero' smooth={true} offset={0} duration={500}>
             About Me</Link></a></li>
             <li><a href="#" data-text="Academic Life"><Link to='program' smooth={true} offset={-260} duration={500}>
