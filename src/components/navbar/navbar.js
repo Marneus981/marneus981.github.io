@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import Hamburger from 'hamburger-react'
 import './navbar.css'
 import '../../config'
+import Hamburger_Custom from '../hamburger/hamburger';
 
 // import logo from '../../assets/placeholder/logo.png'
 // import menu_icon from '../../assets/placeholder/menu_icon.png'
@@ -97,9 +98,16 @@ const Navbar = () => {
             <li><a href="#" data-text="Contact Me"><Link to='contact' smooth={true} offset={-260} duration={500}>
             Contact Me</Link></a></li>
         </ul>
-        <Hamburger className= 'hamburger' toggled={mobileMenu} toggle={setMobileMenu}
-            size={30} color={((!sticky)&&(!isMobile)) || ((!sticky)&&(!mobileMenu))?  'var(--quatre)':'var(--cinq)'}
-            distance="sm" rounded label="Menu" />
+        
+        <Hamburger_Custom model={1} onClick={toggleMenu} isOpen={mobileMenu} color={((!sticky)&&(!isMobile)) || ((!sticky)&&(!mobileMenu))?  'var(--quatre)':'var(--cinq)'}/>
+        {/* <Hamburger 
+            className= 'hamburger'
+            toggled={mobileMenu} toggle={setMobileMenu}
+            size={30} 
+            color={((!sticky)&&(!isMobile)) || ((!sticky)&&(!mobileMenu))?  'var(--quatre)':'var(--cinq)'}
+            distance="sm" 
+            rounded label="Menu" /> */}
+
         {/* <Hamburger toggled={mobileMenu} toggle={setMobileMenu} size={20} color={sticky ? '#fff' : '#000'} distance="sm" rounded label="Show menu" /> */}
         {/* <div className='menu_icon' onClick={toggleMenu}></div> */}
         {/* <img src={menu_icon} alt="" className='menu_icon'/> */}
