@@ -99,7 +99,14 @@ const Navbar = () => {
             Contact Me</Link></a></li>
         </ul>
         
-        <Hamburger_Custom model={1} onClick={toggleMenu} isOpen={mobileMenu} color={((!sticky)&&(!isMobile)) || ((!sticky)&&(!mobileMenu))?  'var(--quatre)':'var(--cinq)'}/>
+        <Hamburger_Custom 
+            model={1} 
+            onClick={toggleMenu} 
+            isOpen={mobileMenu} 
+            color={((!sticky)&&(!isMobile)) || ((!sticky)&&(!mobileMenu))?  'var(--quatre)':'var(--cinq)'}
+            size={40}
+            display={!isMobile?  'none':'block'}
+            positionRight='5%'/>
         {/* <Hamburger 
             className= 'hamburger'
             toggled={mobileMenu} toggle={setMobileMenu}
