@@ -8,6 +8,7 @@
 /* Icon 1 */
 
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
+  
   width: 60px;
   height: 45px;
   position: relative;
@@ -233,10 +234,10 @@
 }
 
 #nav-icon4.open span:nth-child(1) {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+  -webkit-transform: rotate(36.87deg);
+  -moz-transform: rotate(36.87deg);
+  -o-transform: rotate(36.87deg);
+  transform: rotate(36.87deg);
   top: -3px;
   left: 8px;
 }
@@ -247,10 +248,10 @@
 }
 
 #nav-icon4.open span:nth-child(3) {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-36.87deg);
+  -moz-transform: rotate(-36.87deg);
+  -o-transform: rotate(-36.87deg);
+  transform: rotate(-36.87deg);
   top: 39px;
   left: 8px;
 }

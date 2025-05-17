@@ -11,6 +11,7 @@ import Contact from './components/contact/contact'
 import Footer from './components/footer/footer'
 import VideoPlayer from './components/videoPlayer/videoPlayer'
 import Stripes from './components/stripes/stripes'
+import InfoCards from './components/infoCards/infoCards'
 
 import './config'
 const App = () => {
@@ -53,6 +54,7 @@ const App = () => {
 
             {/* Other skills? IDK man */}
             <Title subTitle='Testimonials' title='The Odyssey'/>
+
             <Testimonials/>
 
             {/* Contact me PLEASE I BEG */}

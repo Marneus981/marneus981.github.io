@@ -100,7 +100,7 @@ const Navbar = () => {
         </ul>
         
         <Hamburger_Custom 
-            model={1} 
+            model={4} 
             onClick={toggleMenu} 
             isOpen={mobileMenu} 
             color={((!sticky)&&(!isMobile)) || ((!sticky)&&(!mobileMenu))?  'var(--quatre)':'var(--cinq)'}

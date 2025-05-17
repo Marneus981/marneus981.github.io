@@ -81,7 +81,7 @@ nav ul li{
     }
     nav ul {
         position: fixed;
-        top: 0;
+        top: 30px;
         bottom: 0;
         right: 0px;
         background: var(--quatre);
@@ -156,6 +156,7 @@ nav ul li{
   height: 100%;
   background: var(--menu-link-active-color);
   transition: 0.6s;
+
 }
 
 .menu-hover-fill li a {
@@ -166,11 +167,16 @@ nav ul li{
   background-clip: text;
   -webkit-background-clip: text;
   transition: background-size 0.45s 0.04s;
+  display: inline-block;
 }
 
 .menu-hover-fill li a::before {
   position: absolute;
   content: attr(data-text);
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
   z-index: -1;
   /* color: var(--menu-link-color); */
 }
