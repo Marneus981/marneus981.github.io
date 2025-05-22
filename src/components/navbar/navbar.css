@@ -81,7 +81,7 @@ nav ul li{
     }
     nav ul {
         position: fixed;
-        top: 30px;
+        top: 0;
         bottom: 0;
         right: 0px;
         background: var(--quatre);

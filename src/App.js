@@ -54,8 +54,8 @@ const App = () => {
 
             {/* Other skills? IDK man */}
             <Title subTitle='Testimonials' title='The Odyssey'/>
-
-            <Testimonials/>
+            <InfoCards/>
+            {/* <Testimonials/> */}
 
             {/* Contact me PLEASE I BEG */}
             <Title subTitle='Contact Me' title='Commune with Odysseus'/>

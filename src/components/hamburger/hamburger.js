@@ -21,6 +21,7 @@ const Hamburger_Custom = ({ model = 1, onClick, isOpen, color = '#000', size = 6
                 display: display,
                 position: 'absolute', // Ensure the menu is positioned relative to the screen
                 right: positionRight, // Adjust the distance from the right edge
+                marginTop: '10px', // Adjust the distance from the top edge
             }}
         >
             <span style={{ backgroundColor: color, height: `${size * 0.15}px`, top: `0px` }}></span>
