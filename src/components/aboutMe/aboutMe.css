@@ -1,0 +1,54 @@
+@import '../../config.css';
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.about_left{
+    flex-basis: 40%;
+    position: relative;
+}
+.about_right{
+    flex-basis: 56%;
+}
+.about_img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.about h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--un);
+    /* Added for coherence with previous components */
+    text-transform: uppercase;
+
+}
+.about h2{
+    font-size: 35px;
+    color: var(--quatre);
+    margin: 10px 0;
+    max-width: 400px;
+}
+.about p{
+    color: var(--quatre);
+    margin-bottom: 15px;
+}
+
+
+/* Media Query */
+@media (max-width: 800px){
+    .about{
+        flex-direction: column;
+    }
+    .about_left{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .about_right{
+        flex-basis: 100%;
+    }
+}
