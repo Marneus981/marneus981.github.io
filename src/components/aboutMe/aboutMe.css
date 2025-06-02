@@ -41,6 +41,7 @@
 /* Media Query */
 @media (max-width: 800px){
     .about_me{
+        padding-top: 25%;
         flex-direction: column;
     }
     .about_me_left{

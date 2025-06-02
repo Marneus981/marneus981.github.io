@@ -11,6 +11,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+    
 }
 
 /* .logo{
@@ -53,6 +54,7 @@ nav ul li{
     color: var(--cinq);
     background: var(--quatre);
     transition: all 0.5 ease;
+    border-bottom: 1px solid var(--cinq);
 }
 .light_nav{
     color: var(--quatre);

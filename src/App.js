@@ -24,28 +24,56 @@ const App = () => {
         title: 'Neural Bioelectricity Project',
         summary: 'A project focused on understanding the neural bioelectricity in the human body.',
         skills: ['Python', 'Machine Learning', 'Data Analysis','Neuroscience', 'EEG Analysis'],
+        user: 'marneus981',
+        repoName: 'NeuralBioelectricityProject',
+        showFullTitle: true,
+    };
+  const project1 = {
+        institution: 'University of Nebraska-Lincoln',
+        title: 'Machine Learning for Predictive Analytics',
+        summary: 'A project that applies machine learning techniques to predictive analytics.',
+        skills: ['Python', 'Machine Learning', 'Data Analysis', 'Predictive Analytics'],
+        user: 'marneus981',
+        repoName: 'MAPPA',
+        showFullTitle: true,
     };
   /*Variables*/
-  return (
-    
+  return (  
     <div>
-
         {/* Navigation bar / Container */}
         <Stripes/>
-        
         <Navbar/>
-        {/* Stripes */}
-        
-        {/* Stripes */}
-        {/* <div className='stripes'>
-            <div className='stripe one'></div>
-            <div className='stripe two'></div>
-            <div className='stripe three'></div>
         {/* Background section */}
         {/* <Hero/> */}
         <div className='container_2'>
           <AboutMe/>
-          <ProjectsCard project={project0}/>
+
+          <Title subTitle='My Work Experience' title='The Places I Have Worked At'/>
+          
+          <div className='grid'>
+            <ProjectsCard project={project0}/>
+            <ProjectsCard project={project1}/>
+          </div>
+
+          <Title subTitle='My University Projects' title='To Contribute To YOUR Continued Success' />
+          <div className='grid'>
+            <ProjectsCard project={project0}/>
+            <ProjectsCard project={project1}/>
+          </div>
+
+          <Title subTitle='My Personal Projects' title='To Highlight My Zeal and Love For Tech' />
+          <div className='grid'>
+            <ProjectsCard project={project0}/>
+            <ProjectsCard project={project1}/>
+          </div>
+
+          <Title subTitle='My Other Passions' title='To Complement My Skills and Myself'/>
+          <InfoCards/>
+
+          <Title subTitle='Contact Me!' title='Be It For Work or Just To Connect'/>
+          <Contact/>
+
+          
         </div>
         {/* Adds space to sides by adding container properties*/}
         {/* <div className='container'>

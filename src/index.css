@@ -35,6 +35,15 @@ a{
     padding-left: 11%;
     padding-right: 5%;
     /* padding-top: 5%; */
+    /*spacing between elements*/
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
 }
 .btn{
     background:var(--cinq);

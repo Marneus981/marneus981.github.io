@@ -64,12 +64,12 @@
 			}
 			&::before {
 				z-index: -1;
-				inset: calc(var(--_bg-dot-offset) * -1);
-				background-image: radial-gradient(var(--_bg-dot-color) 1px, transparent 0px);
+				/* inset: calc(var(--_bg-dot-offset) * -1); */
+				/* background-image: radial-gradient(var(--_bg-dot-color) 1px, transparent 0px);
 				background-repeat: repeat;
-				background-size: 5px 5px; /* adjust the spacing between the dots */
-				background-position: center;
-				border-radius: calc(var(--_border-radius) + var(--_bg-dot-offset));
+				background-size: 5px 5px; 
+				background-position: center; */
+				/* border-radius: calc(var(--_border-radius) + var(--_bg-dot-offset)); */
 			}
 		&::after{
 			/*Actual Background*/

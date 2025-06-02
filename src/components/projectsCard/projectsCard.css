@@ -1,23 +1,31 @@
 @import '../../config.css';
 .card{
     display: flex;
-    width: 100%;
+    width: auto;
+    height: auto;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /*spacing*/
     padding: 1rem;
     /*spacing between elements*/
     gap: 1rem;
+    /*box*/
+    background-color: var(--cinq);
+    /*border*/
+    border: 5px solid var(--un);
+    
 }
 .card_left{
     display: flex;
-    flex: 1;
+    flex: auto;
 }
+
+
 .card_middle{
     /* Font color*/
     color: var(--quatre);
     display: grid;
-    flex: 1;
+    flex: auto;
 }
 .card_institution{
     /* Choose a random color amongst 
@@ -51,7 +59,7 @@
 }
 .card_right{
     display: grid;
-    flex: 1;
+    flex: auto;
 }
 .card_skill{
     /* Font color*/

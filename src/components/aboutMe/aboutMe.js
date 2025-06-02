@@ -15,6 +15,12 @@ const AboutMe = () => {
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
              Tenetur incidunt eius corrupti facilis, necessitatibus officia rerum assumenda qui,
               quidem ut eveniet laudantium vel et iste temporibus dignissimos quam magnam iusto?</p>
+
+            <h3>About This Website</h3>
+            <h2>My Personal Portfolio</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Tenetur incidunt eius corrupti facilis, necessitatibus officia rerum assumenda qui,
+              quidem ut eveniet laudantium vel et iste temporibus dignissimos quam magnam iusto?</p>
         </div>
       
     </div>

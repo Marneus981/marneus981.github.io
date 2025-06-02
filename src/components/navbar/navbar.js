@@ -35,7 +35,7 @@ const Navbar = () => {
 
         window.addEventListener('scroll', () => {
 
-            if (window.scrollY > 150) {
+            if (window.scrollY > 0) {
                 setSticky(true);
             } else {
                 setSticky(false);
@@ -87,8 +87,8 @@ const Navbar = () => {
         <ul class= {`menu-hover-fill ${((!sticky)&&(!isMobile)) || ((!sticky)&&(!mobileMenu))? 'light_menu' : 'dark_menu' } flex flex-col items-start leading-none text-2xl uppercase space-y-4 ${mobileMenu ? '' : 'hide_mobile_menu'}`}>
             <li><a href="#" data-text="About Me"><Link to='hero' smooth={true} offset={0} duration={500}>
             About Me</Link></a></li>
-            <li><a href="#" data-text="Academic Life"><Link to='program' smooth={true} offset={-260} duration={500}>
-            Academic Life</Link></a></li>
+            <li><a href="#" data-text="Work Experience"><Link to='program' smooth={true} offset={-260} duration={500}>
+            Work Experience</Link></a></li>
             <li><a href="#" data-text="University Projects"><Link to='about' smooth={true} offset={-150} duration={500}>
             University Projects</Link></a></li>
             <li><a href="#" data-text="Personal Projects"><Link to='campus' smooth={true} offset={-260} duration={500}>
