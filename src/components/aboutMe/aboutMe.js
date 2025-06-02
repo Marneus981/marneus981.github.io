@@ -5,11 +5,11 @@ import play_icon from '../../assets/placeholder/play_icon.png'
 
 const AboutMe = () => {
   return (
-    <div className='about'>
-        <div className='about_left'>
-            <img src={about_img} alt="" className='about_img'/>             
+    <div className='about_me'>
+        <div className='about_me_left'>
+            <img src={about_img} alt="" className='about_me_img'/>             
         </div>
-        <div className='about_right'>
+        <div className='about_me_right'>
             <h3>About Me</h3>
             <h2>Random Bloke Trynna Complete His Nostos</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.

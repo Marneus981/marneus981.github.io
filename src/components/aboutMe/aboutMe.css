@@ -1,24 +1,24 @@
 @import '../../config.css';
-.about{
-    margin: 100px auto;
+.about_me{
+    margin: 11% auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
 }
-.about_left{
-    flex-basis: 40%;
+.about_me_left{
+    flex-basis: 20%;
     position: relative;
 }
-.about_right{
-    flex-basis: 56%;
+.about_me_right{
+    flex-basis: 76%;
 }
-.about_img{
+.about_me_img{
     width: 100%;
     border-radius: 10px;
     display: block;
 }
-.about h3{
+.about_me h3{
     font-size: 16px;
     font-weight: 600;
     color: var(--un);
@@ -26,13 +26,13 @@
     text-transform: uppercase;
 
 }
-.about h2{
+.about_me h2{
     font-size: 35px;
     color: var(--quatre);
     margin: 10px 0;
     max-width: 400px;
 }
-.about p{
+.about_me p{
     color: var(--quatre);
     margin-bottom: 15px;
 }
@@ -40,15 +40,15 @@
 
 /* Media Query */
 @media (max-width: 800px){
-    .about{
+    .about_me{
         flex-direction: column;
     }
-    .about_left{
+    .about_me_left{
         flex-basis: 100%;
         margin: 20px;
         order: 2;
     }
-    .about_right{
+    .about_me_right{
         flex-basis: 100%;
     }
 }

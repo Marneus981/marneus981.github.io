@@ -13,10 +13,18 @@ import VideoPlayer from './components/videoPlayer/videoPlayer'
 import Stripes from './components/stripes/stripes'
 import InfoCards from './components/infoCards/infoCards'
 
+import AboutMe from './components/aboutMe/aboutMe'
+import ProjectsCard from './components/projectsCard/projectsCard'
 import './config'
 const App = () => {
 
   const [playState, setPlayState] = useState(false);
+  const project0 = {
+        institution: 'University of Nebraska-Lincoln',
+        title: 'Neural Bioelectricity Project',
+        summary: 'A project focused on understanding the neural bioelectricity in the human body.',
+        skills: ['Python', 'Machine Learning', 'Data Analysis','Neuroscience', 'EEG Analysis'],
+    };
   /*Variables*/
   return (
     
@@ -24,6 +32,7 @@ const App = () => {
 
         {/* Navigation bar / Container */}
         <Stripes/>
+        
         <Navbar/>
         {/* Stripes */}
         
@@ -33,38 +42,36 @@ const App = () => {
             <div className='stripe two'></div>
             <div className='stripe three'></div>
         {/* Background section */}
-        <Hero/>
+        {/* <Hero/> */}
+        <div className='container_2'>
+          <AboutMe/>
+          <ProjectsCard project={project0}/>
+        </div>
         {/* Adds space to sides by adding container properties*/}
-        <div className='container'>
-
-            {/* Projects section */}
+        {/* <div className='container'>
+            
             <Title subTitle= 'My Projects' title= 'To Contribute To YOUR Continued Success'/>
             <Programs/>
 
-            {/* About me section */}
-            {/* <Title subTitle= 'About Me' title= 'Who Am I'/> Good REC Copilot!*/}
             <About setPlayState={setPlayState}/>
-            {/* Will totally need to revamp this... ALSO will have the programs section
-             be used for projects; ALSO x2 Should probably make them coherent with
-             the Navbar list */}
 
             <Title subTitle='My Education' title='My Trojan War'/>
-            {/* My education? */}
+
             <Campus/>
 
-            {/* Other skills? IDK man */}
+
             <Title subTitle='Testimonials' title='The Odyssey'/>
             <InfoCards/>
-            {/* <Testimonials/> */}
 
-            {/* Contact me PLEASE I BEG */}
+
+
             <Title subTitle='Contact Me' title='Commune with Odysseus'/>
             <Contact/>
             
             
-        </div>
+        </div> */}
         <Footer/>
-        <VideoPlayer playState={playState} setPlayState={setPlayState} youtubeID={global.config.youtubeID.un}/>
+        {/* <VideoPlayer playState={playState} setPlayState={setPlayState} youtubeID={global.config.youtubeID.un}/> */}
     </div>
   )
 }

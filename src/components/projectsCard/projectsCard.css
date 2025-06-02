@@ -1,0 +1,62 @@
+@import '../../config.css';
+.card{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*spacing*/
+    padding: 1rem;
+    /*spacing between elements*/
+    gap: 1rem;
+}
+.card_left{
+    display: flex;
+    flex: 1;
+}
+.card_middle{
+    /* Font color*/
+    color: var(--quatre);
+    display: grid;
+    flex: 1;
+}
+.card_institution{
+    /* Choose a random color amongst 
+    var(--un), var(--deux) et var(--trois)*/
+    color: var(--un);
+    font-weight: bold;
+}
+.card_title{
+
+}
+.card_summary{
+
+}
+.card_see_more{
+    color: var(--quatre);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+
+    /*box*/
+    background-color: var(--cinq);
+    /*no border*/
+    border: none;
+
+}
+/*oh hover change color*/
+.card_see_more:hover{
+    color: var(--un);
+    background-color: var(--quatre);
+    transition: 0.3s;
+}
+.card_right{
+    display: grid;
+    flex: 1;
+}
+.card_skill{
+    /* Font color*/
+    color: var(--quatre);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
