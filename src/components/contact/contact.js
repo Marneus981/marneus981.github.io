@@ -36,15 +36,15 @@ const Contact = () => {
     <div className='contact'>
         <div className='contact_col'>
             <h3>Want to hire me? Or mayhaps connect? Send me a message!
-                <img src={msg_icon} alt=''/>
+                
             </h3>
             <p>Feel free to reach out through this contact form, or alternatively through one of the
                socials below. I'm always open to new opportunities and connections! Wether you want to
                talk biz or just chat, I'm all ears!</p>
             <ul>
-                <li><img src={mail_icon} alt=''/>marcosdma.compeng@outlook.com</li>
-                <li><img src={phone_icon} alt=''/>+1 437-982-2994</li>
-                <li><img src={location_icon} alt=''/>308 Brunswick Ave, Toronto, ON<br/>
+                <li>marcosdma.compeng@outlook.com</li>
+                <li>+1 437-982-2994</li>
+                <li>308 Brunswick Ave, Toronto, ON<br/>
                 M5R 2Y9, Canada</li>
             </ul>
         </div>
