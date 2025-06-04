@@ -5,9 +5,9 @@ import './projectsCard.css'
 
 const ProjectsCard = ({ project }) => {
     const [showMore, setShowMore] = useState(false);
+
     // Idea:
     // Create a card component that displays project details
-
     //On the left side:
     //Project Image (large) or Github card
 
@@ -20,9 +20,10 @@ const ProjectsCard = ({ project }) => {
 
     //On the right side:
     //Project Skills displayed as tags (uncolored at first, colored on hover,
-    //random color amongst those on config.css)        
+    //random color amongst those on config.css)    
         return(
         <div className='card'style={{ border: `5px solid ${project.color}`}} >
+
             <div className='card_left'>
 
                 {project.githubCard ? (
