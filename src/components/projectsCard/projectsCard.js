@@ -24,13 +24,29 @@ const ProjectsCard = ({ project }) => {
         return(
         <div className='card'style={{ border: `5px solid ${project.color}`}} >
             <div className='card_left'>
-                <RepoCards 
-                    repoDetails={[{
-                        user: project.user,
-                        repoName: project.repoName,
-                        showFullTitle: project.showFullTitle,
-                    },]}
+
+                {project.githubCard ? (
+                    <RepoCards 
+                        repoDetails={[{
+                            user: project.user,
+                            repoName: project.repoName,
+                            showFullTitle: project.showFullTitle,
+                        },]}
                     />
+                ) : (
+                    <img
+                        src={project.img}
+                        alt={project.title}
+                        className="card_img"
+                        style={{
+                            width: '100%', // or set to match RepoCards width
+                            height: 'auto', // or set a fixed height if needed
+                            objectFit: 'cover',
+                            borderRadius: '8px'
+                        }}
+                    /> 
+                )}
+
             </div>
             <div className='card_middle'>
                 <span className='card_institution' style={{ color: project.color }}>{project.institution}</span>
