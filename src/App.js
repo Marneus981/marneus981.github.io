@@ -24,18 +24,22 @@ const App = () => {
         title: 'Neural Bioelectricity Project',
         summary: 'A project focused on understanding the neural bioelectricity in the human body.',
         skills: ['Python', 'Machine Learning', 'Data Analysis','Neuroscience', 'EEG Analysis'],
+        description:'This project aims to explore the neural bioelectricity in the human body, utilizing advanced machine learning techniques and data analysis methods. The goal is to gain insights into the electrical activity of the brain and its implications for neuroscience.',
         user: 'marneus981',
         repoName: 'NeuralBioelectricityProject',
         showFullTitle: true,
+        color: 'var(--un)'
     };
   const project1 = {
         institution: 'University of Nebraska-Lincoln',
         title: 'Machine Learning for Predictive Analytics',
         summary: 'A project that applies machine learning techniques to predictive analytics.',
         skills: ['Python', 'Machine Learning', 'Data Analysis', 'Predictive Analytics'],
+        description: 'This project focuses on applying machine learning techniques to predictive analytics, aiming to develop models that can forecast future trends and behaviors based on historical data. It involves data preprocessing, model training, and evaluation.',
         user: 'marneus981',
         repoName: 'MAPPA',
         showFullTitle: true,
+        color: 'var(--deux)'
     };
   /*Variables*/
   return (  
