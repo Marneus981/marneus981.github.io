@@ -2,7 +2,8 @@
 .about_me{
     margin: 11% auto;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: space-between;
     width: 100%;
 }
@@ -13,6 +14,33 @@
 .about_me_right{
     flex-basis: 76%;
 }
+
+.about_me_below {
+display: none;
+transition: max-height 0.3s ease-in-out;
+}
+
+.about_me_below.show {
+    display: block;
+}
+.about_me_see_more_btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1.2rem;
+    background: var(--un);
+    color: var(--quatre);
+
+    border: none;
+
+    cursor: pointer;
+    font-size: 1rem;
+    border: 3px solid var(--cinq);
+}
+.about_me_see_more_btn:hover {
+    border-color: var(--quatre);
+    transition: 0.3s;
+}
+
 .about_me_img{
     width: 100%;
     border-radius: 10px;
@@ -35,6 +63,29 @@
 .about_me p{
     color: var(--quatre);
     margin-bottom: 15px;
+    text-align: justify;
+}
+.vignette-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 15px 0;
+}
+
+.vignette-list li {
+    position: relative;
+    padding-left: 1.5em;
+    margin-bottom: 0.5em;
+    color: var(--quatre);
+    text-align: justify;
+}
+
+.vignette-list li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--un); /* or any color you want */
+    font-size: 1.2em;
+    line-height: 1;
 }
 
 
@@ -47,9 +98,9 @@
     .about_me_left{
         flex-basis: 100%;
         margin: 20px;
-        order: 2;
     }
     .about_me_right{
         flex-basis: 100%;
+        order: 2;
     }
 }
