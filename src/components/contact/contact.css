@@ -40,8 +40,8 @@
     display: block;
     width: 100%;
     background: var(--quatre);
-    box-shadow: 0 0 10px var(--quatre);
-    border-radius: 10px;
+    /* box-shadow: 0 0 10px var(--quatre); */
+    
     color: var(--cinq);
     padding: 15px;
     border: 0;

@@ -38,14 +38,9 @@ const ProjectsCard = ({ project }) => {
                 ) : (
                     <img
                         src={project.img}
-                        alt={project.title}
+                        alt={''}
                         className="card_img"
-                        style={{
-                            width: '100%', // or set to match RepoCards width
-                            height: 'auto', // or set a fixed height if needed
-                            objectFit: 'cover',
-                            borderRadius: '8px'
-                        }}
+
                     /> 
                 )}
 

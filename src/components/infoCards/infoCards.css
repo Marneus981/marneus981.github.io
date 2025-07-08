@@ -321,11 +321,13 @@
 			right: 1rem;
 			/* padding: 0 1rem; */
 			/* margin-right: 2rem; */
-			color: #333;
+
 			transition: rotate 300ms ease-in-out;    
 			pointer-events: var(--_pointer-event,none);
 			cursor: var(--_pointer-cursor, none);
+			color: var(--quatre);
 	}
+
 	article > header > label:hover{
 			rotate: 90deg;
 	}
@@ -433,4 +435,12 @@
 			white-space: nowrap;
 			border-width: 0;
 	}
+}
+
+.is-front > header > label {
+  display: inline-block;
+}
+
+article > header > label {
+  display: none;
 }

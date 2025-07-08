@@ -66,7 +66,7 @@ const Contact = () => {
                 <textarea name='message' rows='6' placeholder='Message' required></textarea>
                 
                 <button type='submit' className='btn dark_btn'>Submit! 
-                  <img src={white_arrow} alt="" />
+                  
                 </button>
             </form>
             {/* Make dynamic Sending message that is random */}

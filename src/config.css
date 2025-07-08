@@ -17,6 +17,10 @@
     --p1red:#EF5B5B;
     /*Dark Purple*/
     --p1purple:#23001E;
+
+    --p2purple:#dbcdd9; /*Indigo*/
     /*Magnolia*/
     --p1magenta:#F7F0F5;
+
+    --p2magenta: #474747;
 }

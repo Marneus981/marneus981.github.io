@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './infoCards.css';
 import '../../config';
 
 const InfoCards = () => {
+    const [selected, setSelected] = useState(1);
+    const handleSelect = (n) => setSelected(n);
     return (
     <section 
         style={{
@@ -14,13 +16,19 @@ const InfoCards = () => {
 
         }}
     >
-        <input className="sr-only" id="card-1" type="radio" name="panel" defaultChecked />
-        <input className="sr-only" id="card-2" type="radio" name="panel" />
-        <input className="sr-only" id="card-3" type="radio" name="panel" />
-        <input className="sr-only" id="card-4" type="radio" name="panel" />
-        <input className="sr-only" id="card-5" type="radio" name="panel" />
+        {[1,2,3,4,5].map(n => (
+            <input
+                key={n}
+                className="sr-only"
+                id={`card-${n}`}
+                type="radio"
+                name="panel"
+                checked={selected === n}
+                onChange={() => handleSelect(n)}
+            />
+        ))}
 
-        <article id="article-1">
+        <article id="article-1" className={selected === 1 ? 'is-front' : ''}>
             <header>
                 <h2>Languages Spoken: 3 and Counting…</h2>
                 <label htmlFor="card-2">&#10539;</label>
@@ -35,7 +43,7 @@ const InfoCards = () => {
             </div>
         </article>
 
-        <article id="article-2">
+        <article id="article-2" className={selected === 2 ? 'is-front' : ''}>
             <header>
                 <h2>Good Stories in All Shapes or Forms</h2>
                 <label htmlFor="card-3">&#10539;</label>
@@ -49,7 +57,7 @@ const InfoCards = () => {
             </div>
         </article>
 
-        <article id="article-3">
+        <article id="article-3" className={selected === 3 ? 'is-front' : ''}>
             <header>
                 <h2>Storytelling and Tabletop Roleplaying</h2>
                 <label htmlFor="card-4">&#10539;</label>
@@ -65,7 +73,7 @@ const InfoCards = () => {
             </div>
         </article>
 
-        <article id="article-4">
+        <article id="article-4" className={selected === 4 ? 'is-front' : ''}>
             <header>
                 <h2>Painting and Drawing</h2>
                 <label htmlFor="card-5">&#10539;</label>
@@ -80,7 +88,7 @@ const InfoCards = () => {
             </div>
         </article>
 
-        <article id="article-5">
+        <article id="article-5" className={selected === 5 ? 'is-front' : ''}>
             <header>
                 <h2>Music, All Genres, Really</h2>
                 <label htmlFor="card-1">&#10539;</label>
