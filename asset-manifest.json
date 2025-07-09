@@ -1,25 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.d6df5186.css",
-    "main.js": "/static/js/main.15e71790.js",
+    "main.js": "/static/js/main.c7645f49.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/about.png": "/static/media/about.ae79f7c4ba002987bed7.png",
     "static/media/program3.png": "/static/media/program3.73a816ab56c0a6e457d6.png",
     "static/media/program1.png": "/static/media/program1.a77b437944c963838cea.png",
     "static/media/program2.png": "/static/media/program2.72b615ee1f3e9b493416.png",
+    "static/media/4threesunflowers.jpg": "/static/media/4threesunflowers.64777405326337d917b8.jpg",
+    "static/media/5music.jpg": "/static/media/5music.a7a41f041561e6d2b0f6.jpg",
+    "static/media/1bordeaux.jpg": "/static/media/1bordeaux.54cadc4fdafed6e91b8e.jpg",
     "static/media/gallery3.png": "/static/media/gallery3.cc599987b9e13cee8fcc.png",
+    "static/media/2overlord.jpg": "/static/media/2overlord.7786f6896e2dca3ad205.jpg",
     "static/media/gallery4.png": "/static/media/gallery4.2d4f350efbdf6fc200a8.png",
     "static/media/gallery1.png": "/static/media/gallery1.901e63cc3af8b9273073.png",
     "static/media/gallery2.png": "/static/media/gallery2.cb423b37437ac0ff6f31.png",
+    "static/media/3ttrpg.jpg": "/static/media/3ttrpg.44e08f5519817ed6ec79.jpg",
+    "static/media/aboutme.jpg": "/static/media/aboutme.f6346806aa9d21ccae46.jpg",
     "static/media/user2.png": "/static/media/user2.b22c59baa927c1be0d2e.png",
     "static/media/user1.png": "/static/media/user1.1f46bb883fe387830efd.png",
     "index.html": "/index.html",
     "main.d6df5186.css.map": "/static/css/main.d6df5186.css.map",
-    "main.15e71790.js.map": "/static/js/main.15e71790.js.map",
+    "main.c7645f49.js.map": "/static/js/main.c7645f49.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6df5186.css",
-    "static/js/main.15e71790.js"
+    "static/js/main.c7645f49.js"
   ]
 }
