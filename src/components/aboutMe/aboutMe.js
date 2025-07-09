@@ -3,13 +3,14 @@ import './aboutMe.css'
 import about_img from '../../assets/placeholder/about.png'
 import play_icon from '../../assets/placeholder/play_icon.png'
 
+import aboutme from '../../assets/actual/aboutme.jpg'
 
 const AboutMe = () => {
   const [showMore, setShowMore] = useState(false);
   return (
     <div className='about_me'>
         <div className='about_me_left'>
-            <img src={about_img} alt="" className='about_me_img'/>             
+            <img src={aboutme} alt="" className='about_me_img'/>             
         </div>
         <div className='about_me_right'>
             <h3>About Me</h3>
