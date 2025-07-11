@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import About from './components/about/about'
-import Campus from './components/campus/campus'
-import Testimonials from './components/testimonials/testimonials'
-import Hero from './components/hero/hero'
-import Programs from './components/programs/programs'
-import VideoPlayer from './components/videoPlayer/videoPlayer'
+// import About from './components/unused/about/about'
+// import Campus from './components/unused/campus/campus'
+// import Testimonials from './components/unused/testimonials/testimonials'
+// import Hero from './components/unused/hero/hero'
+// import Programs from './components/unused/programs/programs'
+// import VideoPlayer from './components/unused/videoPlayer/videoPlayer'
 
 
 import Navbar from './components/navbar/navbar'
