@@ -26,7 +26,7 @@ const App = () => {
     institution: 'Medica Providencia Clinic',
     title: 'PEY VR Technical Assistant',
     date: '12/2022 - 03/2023',
-    summary: 'Administered and documented licensed Nesplora tests to patients for Neurodivergence diagnosis. Performed maintenance and troubleshooting on Oculus Quest VR Equipment used in tests.',
+    summary: 'Resolved technical issues with Oculus Quest VR equipment, reducing weekly downtime through systematic diagnostics and repairs. Collaborated with healthcare professionals during the testing process, resulting in a more patient-centered approach and improved satisfaction scores.',
     skills: [
     // Hard skills (alphabetical)
     'Documentation',
@@ -54,7 +54,7 @@ const App = () => {
     institution: 'OISE',
     title: 'Script Programmer and Video Project Editor',
     date: '03/2022 - 05/2022',
-    summary: 'Worked alongside key stakeholders to produce a large video project for OISE. Created engaging video description generation algorithms for a project spanning close to 200 videos, using Python ML and Excel. Managed a large institution-sanctioned video project on YouTube.',
+    summary: 'Developed video description generation algorithms using Python ML and Excel, for a large video project (200+ videos). Collaborated with key stakeholders to align project goals, enhancing stakeholder satisfaction and ensuring project deliverables met expectations within 3 months.',
     skills: [
         // Hard skills (alphabetical)
         'Data Entry',
@@ -83,7 +83,7 @@ const App = () => {
     institution: 'Medica Providencia Clinic',
     title: 'Substitute Secretary and Sales Associate',
     date: '08/2015 - 07/2018',
-    summary: 'Attended to customers in both the pharmacy and toy store sections of the clinic. Performed secretarial endeavours when the need arose or we were short-staffed.',
+    summary: 'Streamlined operations by efficiently managing secretarial tasks during peak hours. Performed sales operations at the pharmacy and store sections of the clinic.',
     skills: [
         // Hard skills (alphabetical)
         'Data Entry',
@@ -140,7 +140,7 @@ const App = () => {
     institution: 'University of Toronto Capstone Project',
     title: 'Horizontal Federated Learning Research',
     date: '09/2021 - 06/2022',
-    summary: 'Researched network performance of horizontal aggregation of ML models in distributed environments (C++/Python). Co-authored technical papers and presentations pertaining to the created aggregation algorithms and research. Developed an aggregation algorithm that increased network efficiency by 100% while keeping similar performance',
+    summary: 'Analyzed network performance of distributed Federated ML model aggregation (C++/Python). Developed an algorithm that doubled network efficiency with comparable model performance. Co-authored technical papers and presentations on novel aggregation algorithms.',
     skills: [
         // Hard skills (alphabetical)
         'Automated Testing',
@@ -190,7 +190,7 @@ const App = () => {
     institution: 'University of Toronto Project',
     title: 'UNIX-based Operative System Development',
     date: '01/2021 - 06/2021',
-    summary: 'Developed a UNIX-based Operative System from scratch (C/Assembly). Co-developed UX ti satidy customer needs. Implemented multi-threading capabilities on an Operative System.',
+    summary: 'Built a UNIX-based operating system from scratch (C/Assembly). Co-developed user experience features based on customer needs. Implemented multi-threading support at the OS level.Developed a UNIX-based Operative System from scratch (C/Assembly). Co-developed UX ti satidy customer needs. Implemented multi-threading capabilities on an Operative System.',
     skills: [
         // Hard skills (alphabetical)
         'Assembly',
@@ -220,7 +220,7 @@ const App = () => {
     institution: 'University of Toronto Project',
     title: 'MAPPA C++ Geographical Information System',
     date: '09/2019 - 06/2020',
-    summary: 'Co-developed UI/UX suited to stakeholder needs. Improved algorithm efficiency by 200% and reduced memory by 50% for the GIS system (C++). Built a GIS system using "OpenStreetMap" API data and the C++ EZGL Library.',
+    summary: 'Built a GIS system using OpenStreetMap data and the C++ EZGL library. Improved algorithm efficiency by 200% and reduced memory usage by 50%. Co-developed UI/UX tailored to stakeholder needs.Co-developed UI/UX suited to stakeholder needs. Improved algorithm efficiency by 200% and reduced memory by 50% for the GIS system (C++). Built a GIS system using "OpenStreetMap" API data and the C++ EZGL Library.',
     skills: [
         // Hard skills (alphabetical)
         'APIs',
@@ -260,7 +260,7 @@ const App = () => {
     institution: 'University of Toronto Project',
     title: 'Optical Music Recognition: Music Sheet Transcriber',
     date: '01/2021 - 06/2021',
-    summary: 'Designed a hybrid CRNN model, to interpret sheet music by predicting image sequences (Python). Utilized Python ML libraries to handle, preprocess, visualize and analyze over 100,000 sheet music (PrIMuS Dataset).',
+    summary: 'Designed a hybrid CRNN model to interpret sheet music by predicting image sequences (Python). Processed, visualized, and analyzed 100,000+ samples from the PrIMuS dataset using Python ML libraries.Designed a hybrid CRNN model, to interpret sheet music by predicting image sequences (Python). Utilized Python ML libraries to handle, preprocess, visualize and analyze over 100,000 sheet music (PrIMuS Dataset).',
     skills: [
         // Hard skills (alphabetical)
         'Automated Testing',
@@ -310,7 +310,7 @@ const App = () => {
     institution: 'University of Toronto Project',
     title: 'Virtual Piano in Verilog/Assembly',
     date: '09/2019 - 12/2019',
-    summary: 'Implemented a virtual piano on an FPGA board and generated an encoding capable of translating any song into a readable format by said piano (Verilog/Assembly).',
+    summary: 'Implemented a virtual piano on an FPGA board (Verilog/Assembly) and developed an encoding system to translate any song into a readable format for the piano.Implemented a virtual piano on an FPGA board and generated an encoding capable of translating any song into a readable format by said piano (Verilog/Assembly).',
     skills: [
         // Hard skills (alphabetical)
         'Assembly',
@@ -343,7 +343,7 @@ const App = () => {
     institution: 'University of Toronto Project',
     title: 'Neural Signal Modeling',
     date: '09/2020 - 12/2020',
-    summary: 'Assimilated multiple systems into a wholistic simulation of neural signal transmission and propagation using MATLAB.',
+    summary: 'Assimilated multiple systems into a holistic simulation of neural signal transmission and propagation using MATLAB.',
     skills: [
         // Hard skills (alphabetical)
         'Biology',
@@ -370,7 +370,7 @@ const App = () => {
     institution: 'Open Source Project (On Hold)',
     title: 'TTRPG Tools',
     date: '06/2023 - 10/2024',
-    summary: 'Developing a set of software tools with planned AI integration for playing and creating TTRPG Games (C++/Python). Implemented automated debugging and scripting for all different software components.',
+    summary: 'Developing AI-integrated software tools for playing and creating TTRPG games (C++/Python). Implemented automated debugging and scripting across all components.Developing a set of software tools with planned AI integration for playing and creating TTRPG Games (C++/Python). Implemented automated debugging and scripting for all different software components.',
     skills: [
     // Hard skills (alphabetical, max 6)
     'Automated Testing',
@@ -398,7 +398,7 @@ const App = () => {
     institution: 'Game Project (On Hold)',
     title: 'Magia Chef',
     date: '06/2023 - 10/2024',
-    summary: 'Developing a 3D roguelike shooter videogame, using the Unity game engine (C#). Sculpted and animated in-game 3D assets from scratch using Blender (learned the skill in 1 week).',
+    summary: 'Developing a 3D roguelike shooter in Unity (C#). Sculpted and animated original 3D assets in Blender, learning the tool in one week.Developing a 3D roguelike shooter videogame, using the Unity game engine (C#). Sculpted and animated in-game 3D assets from scratch using Blender (learned the skill in 1 week).',
     skills: [
     // Hard skills (alphabetical, max 6)
     '3D Animation',
@@ -427,7 +427,7 @@ const App = () => {
     institution: 'Open Source Project (On Hold)',
     title: 'VKnob',
     date: '02/2024 - 10/2024',
-    summary: 'Developing an overlay application to control multiple Digital Audio Workstations at the same time (C++). Automated UI calls in Windows with the use of UIAutomation for Windows.',
+    summary: 'Developing an overlay application to control multiple Digital Audio Workstations simultaneously (C++). Automated UI interactions on Windows using UIAutomation.Developing an overlay application to control multiple Digital Audio Workstations at the same time (C++). Automated UI calls in Windows with the use of UIAutomation for Windows.',
     skills: [
     // Hard skills (alphabetical, max 6)
     'Automated Testing',
@@ -456,7 +456,7 @@ const App = () => {
     institution: 'Game Project',
     title: 'Untitled RPG Game Project',
     date: '04/2025 - Ongoing',
-    summary: 'Developing a 2D Action RPG concept Game using the Unity Game engine.',
+    summary: 'Developing a 2D ARPG in Unity (C#). Edited and animated 2D assets using Unity, Photoshop and Gimp.',
     skills: [
     // Hard skills (alphabetical, max 6)
     '2D Animation',
@@ -484,7 +484,7 @@ const App = () => {
     institution: 'Portfolio Website',
     title: 'My Portfolio',
     date: '04/2025 - Ongoing',
-    summary: 'Portfolio (This page!) developed from scratch using ReactJS, CSS and HTML.',
+    summary: 'Developed and deployed a portfolio website from scratch, using HTML, CSS and JavaScript, with ReactJS: https://marneus981.github.io/Portfolio (This page!) developed from scratch using ReactJS, CSS and HTML.',
     skills: [
     // Hard skills (alphabetical, max 6)
     'CSS',
@@ -518,7 +518,7 @@ const App = () => {
       ,'09/2018-06/2023'
     ];
     const section_3 = ['Scholarship Comittee at the Faculty of Engineering'
-      ,'Represented students as part of the Scholarship Comittee at the Faculty of Engineering (University of Toronto), distributing and voting on awards and scholarships for students.'
+      ,'Represented students on the Scholarship Committee at the Faculty of Engineering, advocating for equality and true meritocracy in faculty awards.'
       ,'Comittee Student Member'
       ,'University of Toronto Faculty of Applied Science and Engineering'
       ,'Toronto, ON, Canada'
