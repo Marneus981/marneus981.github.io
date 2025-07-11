@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './aboutMe.css'
-import about_img from '../../assets/placeholder/about.png'
-import play_icon from '../../assets/placeholder/play_icon.png'
+// import about_img from '../../assets/placeholder/about.png'
+// import play_icon from '../../assets/placeholder/play_icon.png'
 
 import aboutme from '../../assets/actual/aboutme.jpg'
 
