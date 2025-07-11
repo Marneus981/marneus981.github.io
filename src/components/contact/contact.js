@@ -1,10 +1,10 @@
 import React from 'react'
 import './contact.css'
-import msg_icon from '../../assets/placeholder/msg_icon.png'
-import mail_icon from '../../assets/placeholder/mail_icon.png'
-import phone_icon from '../../assets/placeholder/phone_icon.png'
-import location_icon from '../../assets/placeholder/location_icon.png'
-import white_arrow from '../../assets/placeholder/white_arrow.png'
+// import msg_icon from '../../assets/placeholder/msg_icon.png'
+// import mail_icon from '../../assets/placeholder/mail_icon.png'
+// import phone_icon from '../../assets/placeholder/phone_icon.png'
+// import location_icon from '../../assets/placeholder/location_icon.png'
+// import white_arrow from '../../assets/placeholder/white_arrow.png'
 const Contact = () => {
 
   const [result, setResult] = React.useState("");
