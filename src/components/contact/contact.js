@@ -42,8 +42,10 @@ const Contact = () => {
                socials below. I'm always open to new opportunities and connections! Wether you want to
                talk biz or just chat, I'm all ears!</p>
             <ul>
+                <li>https://www.linkedin.com/in/marcosdma/</li>
+                <li>https://github.com/marneus981</li>
                 <li>marcosdma.compeng@outlook.com</li>
-                <li>+1 437-982-2994</li>
+                <li>+1 437-981-2994</li>
                 <li>308 Brunswick Ave, Toronto, ON<br/>
                 M5R 2Y9, Canada</li>
             </ul>
