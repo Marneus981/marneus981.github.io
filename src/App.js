@@ -108,7 +108,7 @@ const App = () => {
     const project_w_4 = {
     institution: 'Freelance',
     title: 'Freelance Software Developer and 3D Designer',
-    date: '07/2023 - 09/2024',
+    date: '07/2023 - Ongoing',
     summary: 'Implemented AI pipelines which increased reliability by up to 200%, while reducing endpoint runtime by 30%. Raised Full-Stack contributions to Open Source and Private Machine Learning software systems. Implemented UI/UX systems for startups using common Front-End technologies, such as React.js, Node.js, Tkinter, Figma, etc.',
     skills: [
         //Programming Languages
