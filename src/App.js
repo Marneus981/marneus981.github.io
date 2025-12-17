@@ -26,7 +26,7 @@ const App = () => {
     institution: 'Medica Providencia Clinic',
     title: 'PEY VR Technical Assistant',
     date: '12/2022 - 03/2023',
-    summary: 'Resolved technical issues with Oculus Quest VR equipment, reducing weekly downtime through systematic diagnostics and repairs. Collaborated with healthcare professionals during the testing process, resulting in a more patient-centered approach and improved satisfaction scores.',
+    summary: 'Reduced weekly downtime  by half through systematic diagnostics and repair, as well as hardware troubleshooting on Oculus Quest VR equipment. Improved satisfaction scores by 25%  by collaborating with healthcare professionals during VR NESPLORA testing, to offer more client-based experiences.',
     skills: [
     // Hard skills (alphabetical)
     'Documentation',
@@ -51,10 +51,10 @@ const App = () => {
     };
 
     const project_w_2 = {
-    institution: 'OISE',
+    institution: 'Ontario Institute for Studies in Education',
     title: 'Script Programmer and Video Project Editor',
     date: '03/2022 - 05/2022',
-    summary: 'Developed video description generation algorithms using Python ML and Excel, for a large video project (200+ videos). Collaborated with key stakeholders to align project goals, enhancing stakeholder satisfaction and ensuring project deliverables met expectations within 3 months.',
+    summary: 'Developed video description generation algorithms using Python ML and Excel, for a large video project (200+ videos). Enhanced stakeholder satisfaction and met deliverables expectations within 3 months by collaborating with key stakeholders to align project goals.',
     skills: [
         // Hard skills (alphabetical)
         'Data Entry',
@@ -81,9 +81,9 @@ const App = () => {
 
     const project_w_3 = {
     institution: 'Medica Providencia Clinic',
-    title: 'Substitute Secretary and Sales Associate',
+    title: 'Secretary and Sales Associate',
     date: '08/2015 - 07/2018',
-    summary: 'Streamlined operations by efficiently managing secretarial tasks during peak hours. Performed sales operations at the pharmacy and store sections of the clinic.',
+    summary: 'Streamlined operations by efficiently managing secretarial tasks during peak hours, decreasing task time by 10%. Increased sales operations at the pharmacy and store sections of the clinic by 5% on average.',
     skills: [
         // Hard skills (alphabetical)
         'Data Entry',
@@ -107,10 +107,16 @@ const App = () => {
 
     const project_w_4 = {
     institution: 'Freelance',
-    title: 'Freelance 3D Designer',
-    date: '01/2024 - 09/2024',
-    summary: 'Designed models for 3D printed products, using Blender and a variety of different slicing and printing software/hardware.',
+    title: 'Freelance Software Developer and 3D Designer',
+    date: '07/2023 - 09/2024',
+    summary: 'Implemented AI pipelines which increased reliability by up to 200%, while reducing endpoint runtime by 30%. Raised Full-Stack contributions to Open Source and Private Machine Learning software systems. Implemented UI/UX systems for startups using common Front-End technologies, such as React.js, Node.js, Tkinter, Figma, etc.',
     skills: [
+        //Programming Languages
+        'C++',
+        'Python',
+        'HTML5',
+        'CSS',
+        'JavaScript',
         // Hard skills (alphabetical)
         '3D Animation',
         '3D Modelling',
@@ -119,6 +125,25 @@ const App = () => {
         'Product Design',
         'Slicing Software',
         'Texturing',
+        'Retrieval-Augmented Generation (RAG)',
+        'Natural Language Processing (NLP)',
+        'Full-Stack Development',
+        'Big O Space/Time Code Optimization',
+        'Object-Oriented Design Methodologies',
+        'Data Structures and Algorithms',
+        'Version Control with Git',
+        'AI Coding Tools (Copilot)',
+        'Python ML: Tensorflow, Scikit-Learn, Pytorch, Numpy, Keras, Pandas',
+        'JavaScript ML',
+        'LLMs',
+        'LLM APIs',
+        'Node.js',
+        'React.js',
+        'Tkinter',
+        'Figma',
+        'UI/UX Design',
+        'Web Development',
+        'RESTful APIs',
         // Soft skills (alphabetical)
         'Adaptability',
         'Creative Problem-Solving',
@@ -137,10 +162,10 @@ const App = () => {
     };
 
     const project_u_1 = {
-    institution: 'University of Toronto Capstone Project',
+    institution: 'University of Toronto Capstone Project | Open Source Contribution',
     title: 'Horizontal Federated Learning Research',
     date: '09/2021 - 06/2022',
-    summary: 'Analyzed network performance of distributed Federated ML model aggregation (C++/Python). Developed an algorithm that doubled network efficiency with comparable model performance. Co-authored technical papers and presentations on novel aggregation algorithms.',
+    summary: 'Doubled network efficiency of distributed Federated Machine Learning model aggregation (C++/Python). Maintained model performance comparable to benchmark for all models, while implementing novel Machine Learning architectures. Co-authored technical papers and presentations on novel aggregation algorithms.',
     skills: [
         // Hard skills (alphabetical)
         'Automated Testing',
@@ -151,7 +176,6 @@ const App = () => {
         'Distributed Systems',
         'Documentation',
         'Federated Learning',
-        'Github',
         'Jupyter',
         'Keras',
         'Machine Learning',
@@ -190,7 +214,7 @@ const App = () => {
     institution: 'University of Toronto Project',
     title: 'UNIX-based Operative System Development',
     date: '01/2021 - 06/2021',
-    summary: 'Built a UNIX-based operating system from scratch (C/Assembly). Co-developed user experience features based on customer needs. Implemented multi-threading support at the OS level.Developed a UNIX-based Operative System from scratch (C/Assembly). Co-developed UX ti satidy customer needs. Implemented multi-threading capabilities on an Operative System.',
+    summary: 'Built an UNIX-based operating system from scratch (C / Assembly). Co-developed user experience features based on customer needs and implemented support for multi-threading at the kernel level.',
     skills: [
         // Hard skills (alphabetical)
         'Assembly',
@@ -201,6 +225,9 @@ const App = () => {
         'Pair Programming',
         'Software Development',
         'UNIX',
+        'Concurrent Programming',
+        'Multhreaded Implementations',
+        'Back-End Development',
         // Soft skills (alphabetical)
         'Adaptability',
         'Analytical Problem-Solving',
@@ -220,7 +247,7 @@ const App = () => {
     institution: 'University of Toronto Project',
     title: 'MAPPA C++ Geographical Information System',
     date: '09/2019 - 06/2020',
-    summary: 'Built a GIS system using OpenStreetMap data and the C++ EZGL library. Improved algorithm efficiency by 200% and reduced memory usage by 50%. Co-developed UI/UX tailored to stakeholder needs.Co-developed UI/UX suited to stakeholder needs. Improved algorithm efficiency by 200% and reduced memory by 50% for the GIS system (C++). Built a GIS system using "OpenStreetMap" API data and the C++ EZGL Library.',
+    summary: 'Built GIS system using OpenStreetMap API data and the C++ EZGL library, backed by user-centrist Front-End UI/UX systems powered by robust Back-End. Improved search algorithm efficiency by 200% and reduced memory usage by 50%.',
     skills: [
         // Hard skills (alphabetical)
         'APIs',
@@ -231,7 +258,6 @@ const App = () => {
         'Documentation',
         'EZGL Library',
         'Full-Stack Development',
-        'Github',
         'Linux Development',
         'OOP Design Methodologies',
         'OpenStreetMap API',
@@ -240,6 +266,7 @@ const App = () => {
         'Software Development Cycle',
         'UI/UX Design',
         'Version Control with Git',
+        'Full-Stack Development',
         // Soft skills (alphabetical)
         'Adaptability',
         'Creative Problem-Solving',
@@ -260,7 +287,7 @@ const App = () => {
     institution: 'University of Toronto Project',
     title: 'Optical Music Recognition: Music Sheet Transcriber',
     date: '01/2021 - 06/2021',
-    summary: 'Designed a hybrid CRNN model to interpret sheet music by predicting image sequences (Python). Processed, visualized, and analyzed 100,000+ samples from the PrIMuS dataset using Python ML libraries.Designed a hybrid CRNN model, to interpret sheet music by predicting image sequences (Python). Utilized Python ML libraries to handle, preprocess, visualize and analyze over 100,000 sheet music (PrIMuS Dataset).',
+    summary: 'Designed a hybrid CRNN model to interpret sheet music by predicting image sequences (Python). Achieved near benchmark performance with at least 50% reduced resource usage. Processed, visualized, and analyzed 100,000+ samples from the PrIMuS dataset using Python ML libraries',
     skills: [
         // Hard skills (alphabetical)
         'Automated Testing',
@@ -310,7 +337,7 @@ const App = () => {
     institution: 'University of Toronto Project',
     title: 'Virtual Piano in Verilog/Assembly',
     date: '09/2019 - 12/2019',
-    summary: 'Implemented a virtual piano on an FPGA board (Verilog/Assembly) and developed an encoding system to translate any song into a readable format for the piano.Implemented a virtual piano on an FPGA board and generated an encoding capable of translating any song into a readable format by said piano (Verilog/Assembly).',
+    summary: 'Implemented a virtual piano on FPGA board (Verilog/Assembly) and developed an audio encoding system for it. Streamlined user experience by creating state machines to implement application logic for the piano on FPGA boards.',
     skills: [
         // Hard skills (alphabetical)
         'Assembly',
@@ -343,7 +370,7 @@ const App = () => {
     institution: 'University of Toronto Project',
     title: 'Neural Signal Modeling',
     date: '09/2020 - 12/2020',
-    summary: 'Assimilated multiple systems into a holistic simulation of neural signal transmission and propagation using MATLAB.',
+    summary: 'Researched neural signal transmission and propagation, and its parallels in Machine Learning. Simulated neural signal transmission and propagation using MATLAB.',
     skills: [
         // Hard skills (alphabetical)
         'Biology',
@@ -370,20 +397,22 @@ const App = () => {
     institution: 'Open Source Project (On Hold)',
     title: 'TTRPG Tools',
     date: '06/2023 - 10/2024',
-    summary: 'Developing AI-integrated software tools for playing and creating TTRPG games (C++/Python). Implemented automated debugging and scripting across all components.Developing a set of software tools with planned AI integration for playing and creating TTRPG Games (C++/Python). Implemented automated debugging and scripting for all different software components.',
+    summary: 'Developing software tools with planned AI integration for playing and creating TTRPG Systems (C++/Python). Implemented robust automated debugging and scripting for all software components and tools.',
     skills: [
     // Hard skills (alphabetical, max 6)
     'Automated Testing',
     'C++',
-    'Github',
     'Python',
     'Python ML',
     'Software Development',
+    'Version Control with Git',
+    'Full-Stack Development',
+    'Back-End Development',
     // Soft skills (alphabetical, max 6)
     'Creative Problem Solving',
     'Fast Learning',
     'Proactiveness',
-    'Back-End Development'
+
     ],
     description: '',
     user: 'marneus981',
@@ -398,7 +427,7 @@ const App = () => {
     institution: 'Game Project (On Hold)',
     title: 'Magia Chef',
     date: '06/2023 - 10/2024',
-    summary: 'Developing a 3D roguelike shooter in Unity (C#). Sculpted and animated original 3D assets in Blender, learning the tool in one week.Developing a 3D roguelike shooter videogame, using the Unity game engine (C#). Sculpted and animated in-game 3D assets from scratch using Blender (learned the skill in 1 week).',
+    summary: 'Developing a 3D rogue-like shooter video game, using the Unity game engine (C#). Sculpting and animating in-game 3D assets from scratch using Blender and Unity.',
     skills: [
     // Hard skills (alphabetical, max 6)
     '3D Animation',
@@ -407,12 +436,13 @@ const App = () => {
     'C#',
     'Unity',
     'Unity 3D',
+    'Full-Stack Development',
+    'Version Control with Git',
     // Soft skills (alphabetical, max 6)
     'Adaptability',
     'Creative Problem Solving',
     'Fast Learning',
     'Proactiveness',
-    'Full-Stack Development'
     ],
     description: '',
     user: 'marneus981',
@@ -427,19 +457,19 @@ const App = () => {
     institution: 'Open Source Project (On Hold)',
     title: 'VKnob',
     date: '02/2024 - 10/2024',
-    summary: 'Developing an overlay application to control multiple Digital Audio Workstations simultaneously (C++). Automated UI interactions on Windows using UIAutomation.Developing an overlay application to control multiple Digital Audio Workstations at the same time (C++). Automated UI calls in Windows with the use of UIAutomation for Windows.',
+    summary: 'Developing overlay application to enable cross functionality across multiple Digital Audio Workstations (C++) using UIAutomation for Windows.',
     skills: [
     // Hard skills (alphabetical, max 6)
     'Automated Testing',
     'C++',
-    'Github',
     'Software Development',
     'Software Development Cycle',
     'UIAutomation',
+    'Version Control with Git',
+    'Full-Stack Development',
     // Soft skills (alphabetical, max 6)
     'Creative Problem Solving',
     'Fast Learning',
-    'Full-Stack Development',
     'Proactiveness',
     'Stakeholder Interaction'
     ],
@@ -456,7 +486,7 @@ const App = () => {
     institution: 'Game Project',
     title: 'Untitled RPG Game Project',
     date: '04/2025 - Ongoing',
-    summary: 'Developing a 2D ARPG in Unity (C#). Edited and animated 2D assets using Unity, Photoshop and Gimp.',
+    summary: 'Developing a 2D action role-playing game using the Unity game engine (C#). Edited and animated 2D sprites and assets using Unity, Photoshop and Gimp.',
     skills: [
     // Hard skills (alphabetical, max 6)
     '2D Animation',
@@ -465,6 +495,7 @@ const App = () => {
     'C#',
     'Game Programming',
     'Unity',
+    'Full-Stack Development',
     // Soft skills (alphabetical, max 6)
     'Adaptability',
     'Creative Problem Solving',
@@ -484,14 +515,15 @@ const App = () => {
     institution: 'Portfolio Website',
     title: 'My Portfolio',
     date: '04/2025 - Ongoing',
-    summary: 'Developed and deployed a portfolio website from scratch, using HTML, CSS and JavaScript, with ReactJS: https://marneus981.github.io/Portfolio (This page!) developed from scratch using ReactJS, CSS and HTML.',
+    summary: 'Developed portfolio website from scratch using JavaScript, React.js, Node.js, CSS and HTML. Implemented multiple features ranging from mailing list integration to complex UI systems for improved user experience and flair.',
     skills: [
     // Hard skills (alphabetical, max 6)
     'CSS',
-    'Github',
     'HTML',
-    'ReactJS',
+    'React.js',
+    'Node.js',
     'Version Control with Git',
+    'Front-End Development',
     'Web Development',
     // Soft skills (alphabetical, max 6)
     'Adaptability',
@@ -507,6 +539,99 @@ const App = () => {
     img: '',
     githubCard: true,
     };
+
+    const project_p_6 = {
+    institution: 'Open Source Project',
+    title: 'Project Sisyphus',
+    date: '07/2025 - Ongoing',
+    summary: 'Developed Natural Language Processing tool for job applications;  increased efficiency on edge devices by 70% with model quantization and algorithm optimization. Increased output reliability by 150% and halved runtime by implementing model quantization and more robust Front-End and Back-End systems and tools.',
+    skills: [
+        // Hard skills (alphabetical)
+        'Automated Testing',
+        'Back-End Development',
+        'Data Science',
+        'Machine Learning',
+        'Artificial Intelligence',
+        'Python',
+        'Python ML',
+        'JavaScript ML',
+        'LLMs',
+        'LLM APIs',
+        'META LLaMA',
+        'Ollama',
+        'HuggingFace',
+        'Local LLMs',
+        'Model Fine-Tuning',
+        'Natural Language Processing',
+        'Software Development',
+        'Full-Stack Development',
+        'Version Control with Git',
+        'UI/UX Design',
+        'Tkinter',
+        // Soft skills (alphabetical)
+        'Adaptability',
+        'Analytical Problem-Solving',
+        'Conflict Resolution',
+        'Creative Problem-Solving',
+        'Good Written and Communication Skills',
+        'Proactiveness',
+        'Results Oriented',
+        'Time Management'
+    ],
+    description: '',
+    user: 'Marneus981',
+    repoName: 'Project_Sisyphus',
+    showFullTitle: true,
+    color: 'var(--trois)',
+    img: '',
+    githubCard: true,
+    };
+
+    const project_p_7 = {
+    institution: 'Open Source Project',
+    title: 'Project Calliope',
+    date: '08/2025 - Ongoing',
+    summary: 'Implementing Back-End frameworks powered by Retrieval Augmented Generation to create companion assistant for use with any Tabletop RPG rule system.',
+    skills: [
+        // Hard skills (alphabetical)
+        'Automated Testing',
+        'Back-End Development',
+        'Data Science',
+        'Machine Learning',
+        'Artificial Intelligence',
+        'Python',
+        'Python ML',
+        'JavaScript ML',
+        'LLMs',
+        'LLM APIs',
+        'META LLaMA',
+        'Ollama',
+        'HuggingFace',
+        'Local LLMs',
+        'Model Fine-Tuning',
+        'Retrieval-Augmented Generation',
+        'Software Development',
+        'Back-End Development',
+        'Version Control with Git',
+        // Soft skills (alphabetical)
+        'Adaptability',
+        'Analytical Problem-Solving',
+        'Conflict Resolution',
+        'Creative Problem-Solving',
+        'Good Written and Communication Skills',
+        'Proactiveness',
+        'Results Oriented',
+        'Time Management'
+    ],
+    description: '',
+    user: 'Marneus981',
+    repoName: 'Project_Calliope',
+    showFullTitle: true,
+    color: 'var(--un)',
+    img: '',
+    githubCard: true,
+    };
+
     const section_1 = ['Bachelors of Applied Science in Computer Engineering'
       ,'University of Toronto Faculty of Applied Science and Engineering'
       ,'Toronto, ON, Canada'
@@ -518,7 +643,7 @@ const App = () => {
       ,'09/2018-06/2023'
     ];
     const section_3 = ['Scholarship Comittee at the Faculty of Engineering'
-      ,'Represented students on the Scholarship Committee at the Faculty of Engineering, advocating for equality and true meritocracy in faculty awards.'
+      ,'Represented students as part of the Scholarship Committee at the Faculty of Engineering (University of Toronto), distributing and voting on awards and scholarships for students. Collaborated as part of a multi-disciplinary committee, providing impactful decisions to benefit students faculty-wide.'
       ,'Comittee Student Member'
       ,'University of Toronto Faculty of Applied Science and Engineering'
       ,'Toronto, ON, Canada'
@@ -532,7 +657,7 @@ const App = () => {
       ,'01/2019 - 06/2019'
     ];
     const section_5 = ['University of Toronto Engineering Scholar Denomination'
-      ,'Achieved highest scholar denomination upon faculty entry, and successfully maintained throughout entire career.'
+      ,'Achieved highest scholar denomination upon faculty entry, and successfully maintained it throughout entire career.'
       ,'University of Toronto Faculty of Applied Science and Engineering'
       ,'Toronto, ON, Canada'
       ,'09/2018-06/2023'
@@ -596,6 +721,8 @@ const App = () => {
               <ProjectsCard project={project_p_3}/>
               <ProjectsCard project={project_p_4}/>
               <ProjectsCard project={project_p_5}/>
+              <ProjectsCard project={project_p_6}/>
+              <ProjectsCard project={project_p_7}/>
             </div>
           </div>
           <div id='other-passions'>
